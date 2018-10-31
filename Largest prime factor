@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+
+#define print printf
+
+int main(void){
+    
+    long long num = 600851475143 ;
+    long long max = 0;
+    int sqr = sqrt(num);
+    
+    
+    if(num % 2 == 0){
+              max = 2;
+              }
+              else{
+    for(long long i = 3;i <= sqr;i += 2){
+             while(num % i == 0){
+                    max = i;
+                    num /= i;
+                    }
+         }
+         if(num > 2){
+                max = num;
+                }
+                }
+print("%lld",max);
+getchar();
+return 10000;
+}
