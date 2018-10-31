@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+	short n;
+	int sum = 0;
+
+	for (n = 1; n < 1000; n++) {
+		if (!(n % 3) || !(n % 5)) {
+			sum += n;
+		}
+	}
+	printf("%d", 1 % 3);
+	printf("The Sum of all multiples of 3 or 5 is: %d\n", sum);
+	return 0;
+
+}
