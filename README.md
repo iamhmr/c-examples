@@ -1,2 +1,2 @@
-# C-programming examples
+# C - programming examples
 Project Euler Soru Çözümlerı
