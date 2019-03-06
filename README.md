@@ -1,2 +1,2 @@
-C programming tutorial
-C örneklerı
+# C programming examples
+Project Euler Soru Çözümlerı
